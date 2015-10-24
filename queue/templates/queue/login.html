@@ -1,0 +1,7 @@
+login page
+
+<form action="/queue/login" method="post" enctype="multipart/form-data" id="login-form">
+    {% csrf_token %}
+    <input class="login-input" type="password" name="party_pw" placeholder="password">
+    <button type="submit">log in</button>
+</form>
